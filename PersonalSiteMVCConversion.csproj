@@ -35,7 +35,6 @@
     <Content Remove="wwwroot\assets\img\portfolio\portfolio-details-2.jpg" />
     <Content Remove="wwwroot\assets\img\portfolio\portfolio-details-3.jpg" />
     <Content Remove="wwwroot\assets\img\resume.pdf" />
-    <Content Remove="wwwroot\assets\img\tarynheadshot.jpg" />
     <Content Remove="wwwroot\assets\js\jquery-3.6.0.min.js" />
     <Content Remove="wwwroot\assets\js\jquery.beefup.js" />
     <Content Remove="wwwroot\assets\js\main.js" />
@@ -162,7 +161,6 @@
     <None Include="wwwroot\assets\img\portfolio\portfolio-details-2.jpg" />
     <None Include="wwwroot\assets\img\portfolio\portfolio-details-3.jpg" />
     <None Include="wwwroot\assets\img\resume.pdf" />
-    <None Include="wwwroot\assets\img\tarynheadshot.jpg" />
     <None Include="wwwroot\assets\js\jquery-3.6.0.min.js" />
     <None Include="wwwroot\assets\js\jquery.beefup.js" />
     <None Include="wwwroot\assets\js\main.js" />

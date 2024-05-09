@@ -29,3 +29,8 @@
 #header .logo img {
   max-height: 40px;
 }
+
+img.img-fluid {
+    max-height: 200px !important;
+    max-width: 400px;
+}
