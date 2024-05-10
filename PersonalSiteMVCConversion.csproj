@@ -12,10 +12,6 @@
     <Content Remove="wwwroot\assets\css\style.css" />
     <Content Remove="wwwroot\assets\img\austinheadshot.jpg" />
     <Content Remove="wwwroot\assets\img\avatar.jpg" />
-    <Content Remove="wwwroot\assets\img\blog-post-1.jpg" />
-    <Content Remove="wwwroot\assets\img\blog-post-2.jpg" />
-    <Content Remove="wwwroot\assets\img\blog-post-3.jpg" />
-    <Content Remove="wwwroot\assets\img\blog-post-big.jpg" />
     <Content Remove="wwwroot\assets\img\catieheadshot.png" />
     <Content Remove="wwwroot\assets\img\dungeonthumbnail.PNG" />
     <Content Remove="wwwroot\assets\img\ethanheadshot.jpg" />
@@ -34,7 +30,6 @@
     <Content Remove="wwwroot\assets\img\portfolio\portfolio-details-1.jpg" />
     <Content Remove="wwwroot\assets\img\portfolio\portfolio-details-2.jpg" />
     <Content Remove="wwwroot\assets\img\portfolio\portfolio-details-3.jpg" />
-    <Content Remove="wwwroot\assets\img\resume.pdf" />
     <Content Remove="wwwroot\assets\js\jquery-3.6.0.min.js" />
     <Content Remove="wwwroot\assets\js\jquery.beefup.js" />
     <Content Remove="wwwroot\assets\js\main.js" />
@@ -138,10 +133,6 @@
     <None Include="wwwroot\assets\css\style.css" />
     <None Include="wwwroot\assets\img\austinheadshot.jpg" />
     <None Include="wwwroot\assets\img\avatar.jpg" />
-    <None Include="wwwroot\assets\img\blog-post-1.jpg" />
-    <None Include="wwwroot\assets\img\blog-post-2.jpg" />
-    <None Include="wwwroot\assets\img\blog-post-3.jpg" />
-    <None Include="wwwroot\assets\img\blog-post-big.jpg" />
     <None Include="wwwroot\assets\img\catieheadshot.png" />
     <None Include="wwwroot\assets\img\dungeonthumbnail.PNG" />
     <None Include="wwwroot\assets\img\ethanheadshot.jpg" />
@@ -160,7 +151,6 @@
     <None Include="wwwroot\assets\img\portfolio\portfolio-details-1.jpg" />
     <None Include="wwwroot\assets\img\portfolio\portfolio-details-2.jpg" />
     <None Include="wwwroot\assets\img\portfolio\portfolio-details-3.jpg" />
-    <None Include="wwwroot\assets\img\resume.pdf" />
     <None Include="wwwroot\assets\js\jquery-3.6.0.min.js" />
     <None Include="wwwroot\assets\js\jquery.beefup.js" />
     <None Include="wwwroot\assets\js\main.js" />

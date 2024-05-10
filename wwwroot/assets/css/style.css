@@ -683,6 +683,7 @@ p {
 
 #portfolio .portfolio-item {
   margin-bottom: 30px;
+  height: 500px;
 }
 
 #portfolio .portfolio-item .portfolio-info {
@@ -694,7 +695,8 @@ p {
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: rgba(255, 255, 255, 0.9);
-  padding: 15px;
+  padding: 5px;
+  max-width: 60%;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {

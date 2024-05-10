@@ -50,10 +50,13 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    @if (ViewData["Title"] == "Index")
+                    {
+                        <li><a class="nav-link scrollto" href="#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+                        <li><a class="nav-link scrollto" href="#classmates">My Classmates</a></li>
+                    }
                     <li>@Html.ActionLink("Resume", "Resume", "Home")</li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-                    <li><a class="nav-link scrollto" href="#classmates">My Classmates</a></li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>

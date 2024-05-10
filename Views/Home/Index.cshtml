@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Index";
 }
 
 <!-- ======= Hero Section ======= -->
@@ -70,7 +70,7 @@
                     <div class="swiper-slide">
                         <div class="services-block">
                             <i class="bi bi-filetype-sql"></i>
-                            <span><a href="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16">SQL</a></span>
+                            <span><a href="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16">MSSQL</a></span>
                             <p class="separator"> I utilize SQL for database management, querying, and manipulation, ensuring efficient storage, retrieval, and organization of data to support the functionality and integrity of applications and systems.</p>
                         </div>
                     </div><!-- End testimonial item -->
@@ -123,51 +123,53 @@
             <div class="row portfolio-container">
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="/assets/img/dungeonthumbnail.PNG" class="img-fluid" alt="Player Info Screen inside console">
-                    <div class="portfolio-info">
-                        <h4>Dungeon App</h4>
-                        <p>C#</p>
-                        <a href="/assets/img/dungeonthumbnail.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="C# Dungeon App"><i class="bx bx-plus"></i></a>
-
+                    <div class="card h-100">
+                        <img src="/assets/img/dungeonthumbnail.PNG" class="img-fluid card-img-top" alt="Player Info Screen inside console">
+                        <div class="card-body">
+                            <a href="/assets/img/dungeonthumbnail.PNG"><h4 id="cardTitle">Dungeon App</h4></a>
+                            <p>C#</p>
+                            <p>This was the first major project we did at Centriq that really grabbed my attention. This taught me skills with C# and LINQ</p>
+                            <a href="https://github.com/TWaltonIT/Dungeon_ThomasWalton" data-gallery="portfolioGallery">Check it out on GitHub! &nbsp; <i class="bi bi-github"></i></a>
+                        </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <img src="/assets/img/reactTODo.png" class="img-fluid" alt="Screenshot of my React To Do Site">
-                    <div class="portfolio-info">
-                        <h4>ToDo Web App</h4>
-                        <p>ReactJS</p>
-                        <a href="http://todo.thomaswaltondev.com" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="ReactJS ToDo App"><i class="bx bx-plus"></i></a>
-
+                    <div class="card h-100">
+                        <img src="/assets/img/reactTODo.png" class="img-fluid card-img-top" alt="My React Site">
+                        <div class="card-body">
+                            <a href="http://todo.thomaswaltondev.com"><h4 id="cardTitle">ToDo Web App</h4></a>
+                            <p>ReactJS</p>
+                            <p>I was underestimating the power of ReactJs until we did this project. The ability to have a fully modular website is outstanding.</p>
+                            <a href="https://github.com/TWaltonIT/react-todo">Check it out on GitHub! &nbsp; <i class="bi bi-github"></i></a>
+                        </div>
                     </div>
                 </div>
-
-                <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                  <img src="/assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Web 1</h4>
-                    <p>Web</p>
-                    <a href="/assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-                  </div>
-                </div>
-
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                  <img src="/assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>App 2</h4>
-                    <p>App</p>
-                    <a href="/assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-
-                  </div> -->
-            </div>
-
-
-
+                    <div class="card h-100">
+                        <img src="/assets/img/todoAPI.png" class="img-fluid card-img-top" alt="JSON Objects">
+                        <div class="card-body">
+                            <a href="http://todoapi.thomaswaltondev.com/API/ToDos"><h4 id="cardTitle">ToDo Web API</h4></a>
+                            <p>.NET Core Web API</p>
+                            <p>For my first time making an API, I had a lot of fun with this even though it is simple. This creates an endpoint for the ToDo App to retrieve DB entries.</p>
+                            
+                            <a href="https://github.com/TWaltonIT/ToDoAPI" data-gallery="portfolioGallery">Check it out on GitHub! &nbsp; <i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="card h-100">
+                        <img src="/assets/img/konohaexpress.png" class="img-fluid card-img-top" alt="My Storefront">
+                        <div class="card-body">
+                            <a href="/assets/img/konohaexpress.png"><h4 id="cardTitle">StoreFront</h4>
+                            <p>.NET Core MVC App</p>
+                            <p>Making this was a challenging task that definitely tested my ability as a developer.</p>
+                            <a href="https://github.com/TWaltonIT/StoreFrontMVC" data-gallery="portfolioGallery">Check it out on GitHub! &nbsp; <i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
         </div>
-
     </div>
-
+    </div>
     </div><!-- End Portfolio Section -->
     <!-- ======= Classmates Section ======= -->
     <div id="classmates" class="text-left paddsection">
@@ -262,7 +264,6 @@
         </div>
 
     </div><!-- End Journal Section -->
- 
     <!-- Twitch Section -->
     <!-- <div class="container">
       <div id="social" class="twitch">
